@@ -1,7 +1,7 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:5000/api/todos"; // Sesuaikan dengan URL backend kamu
-
+// const API_URL = "http://localhost:5000/api/todos"; // Sesuaikan dengan URL backend kamu
+const API_URL = "https://to-do-list-api-production-1073.up.railway.app/api/todos"
 // Get all todos
 export const getTodos = async () => {
   try {
